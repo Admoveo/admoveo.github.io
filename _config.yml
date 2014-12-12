@@ -1,0 +1,10 @@
+safe:        true
+lsi:         false
+baseurl:     /
+url:         http://localhost:4000
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+future:      true
+markdown:    Kramdown
+permalink:   date
