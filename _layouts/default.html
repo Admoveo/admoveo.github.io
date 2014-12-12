@@ -4,6 +4,7 @@
   <title>{{ page.title }}</title>
 </head>
 <body>
+{% include header.html %}
   <h1><a href="/index.html">My First Jekyll-Powered Blog</a></h1>
   {{ content }}
 
@@ -16,5 +17,6 @@
   {% endfor %}
 </ul>
 
+{% include footer.html %}
 </body>
 </html>
